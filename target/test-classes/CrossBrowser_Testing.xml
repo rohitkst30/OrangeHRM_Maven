@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="2" parallel="tests">
+	<!-- thread-count="2" means that we'll run 2 tests in parallel. -->
+	<test name="ChromeTest">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="com.OrangeHRM.CrossBrowser_Testing" />
+			<!-- If we want to run multiple classes in different browsers then, add those classes below and,
+			the cross browser code in the beforeTest method of CrossBrowser_Testing into the class's beforeTest.-->
+			<!-- <class name="com.OrangeHRM.CrossBrowser_Testing" /> -->
+		</classes>
+	</test>
+	<!-- <test name="FirefoxTest">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="com.OrangeHRM.CrossBrowser_Testing" />
+		</classes>
+	</test> -->
+	<test name="EdgeTest">
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="com.OrangeHRM.CrossBrowser_Testing" />
+		</classes>
+	</test>
+	<!-- <test name="IETest">
+		<parameter name="browser" value="ie" />
+		<classes>
+			<class name="com.OrangeHRM.CrossBrowser_Testing" />
+		</classes>
+	</test> -->
+</suite>

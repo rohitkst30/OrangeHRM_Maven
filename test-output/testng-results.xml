@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="48885" started-at="2021-03-02T19:15:33 IST" finished-at="2021-03-02T19:16:22 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="48885" started-at="2021-03-02T19:15:33 IST" finished-at="2021-03-02T19:16:22 IST">
+      <class name="com.AdvancedTopics.ExtentReport_WithScreenshot">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.AdvancedTopics.ExtentReport_WithScreenshot@3234e239]" name="startReport" is-config="true" duration-ms="401" started-at="2021-03-02T19:15:33 IST" finished-at="2021-03-02T19:15:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.AdvancedTopics.ExtentReport_WithScreenshot@3234e239]" name="LaunchBrowser" duration-ms="2859" started-at="2021-03-02T19:15:34 IST" finished-at="2021-03-02T19:15:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.AdvancedTopics.ExtentReport_WithScreenshot@3234e239]" name="getResult" is-config="true" duration-ms="5" started-at="2021-03-02T19:15:36 IST" finished-at="2021-03-02T19:15:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LaunchBrowser status=SUCCESS method=ExtentReport_WithScreenshot.LaunchBrowser()[pri:0, instance:com.AdvancedTopics.ExtentReport_WithScreenshot@3234e239] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="OrangeHRM_Login()[pri:0, instance:com.AdvancedTopics.ExtentReport_WithScreenshot@3234e239]" name="OrangeHRM_Login" duration-ms="43922" started-at="2021-03-02T19:15:36 IST" finished-at="2021-03-02T19:16:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrangeHRM_Login -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.AdvancedTopics.ExtentReport_WithScreenshot@3234e239]" name="getResult" is-config="true" duration-ms="0" started-at="2021-03-02T19:16:20 IST" finished-at="2021-03-02T19:16:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrangeHRM_Login status=SUCCESS method=ExtentReport_WithScreenshot.OrangeHRM_Login()[pri:0, instance:com.AdvancedTopics.ExtentReport_WithScreenshot@3234e239] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.AdvancedTopics.ExtentReport_WithScreenshot@3234e239]" name="endReport" is-config="true" duration-ms="1649" started-at="2021-03-02T19:16:20 IST" finished-at="2021-03-02T19:16:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.AdvancedTopics.ExtentReport_WithScreenshot -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
