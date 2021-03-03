@@ -3,14 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.AdvancedTopics.ExtentReport_WithScreenshot">
+      <class name="com.OrangeHRM.OrangeHRM_Logout">
         <methods>
-          <include name="getResult"/>
-          <include name="endReport"/>
-          <include name="OrangeHRM_Login"/>
-          <include name="startReport"/>
+          <include name="Login_Successful_Scenario"/>
         </methods>
-      </class> <!-- com.AdvancedTopics.ExtentReport_WithScreenshot -->
+      </class> <!-- com.OrangeHRM.OrangeHRM_Logout -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,13 +1,16 @@
 package com.OrangeHRM;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+//import org.junit.After;
+//import org.junit.Before;
+//import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -15,7 +18,8 @@ public class OrangeHRM_Logout {
 
 	ChromeDriver driver;
 	
-	@Before
+//	@Before
+	@BeforeTest
 	public void LaunchBrowser() {
 		// Launch the browser
 		WebDriverManager.chromedriver().setup(); // Downloads the right driver version for the right browser.
@@ -28,7 +32,8 @@ public class OrangeHRM_Logout {
 		driver.navigate().to("https://opensource-demo.orangehrmlive.com/index.php/auth/login");
 	}
 
-	@After
+//	@After
+	@AfterTest
 	public void CloseBrowser() {
 		// driver.close(); // Close the current browser.
 		driver.quit(); // Close all the browsers opened by Selenium.

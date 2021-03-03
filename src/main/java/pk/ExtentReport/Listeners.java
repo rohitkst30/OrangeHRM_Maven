@@ -43,5 +43,9 @@ public class Listeners implements ITestListener {
 	public void onTestSuccess(ITestResult result) {
 		extentTest.get().log(Status.PASS, "Test Successful");
 	}
+
+	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
+		
+	}
 }
 
